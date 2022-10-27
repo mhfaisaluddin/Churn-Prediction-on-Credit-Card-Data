@@ -3,14 +3,14 @@
 
 The dataset and all information about it can be downloaded at https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers. This notebook contains exploratory data analysis (EDA) stages, preprocessing, machine learning modeling, and model interpretability.
 
-**Conclusion & Actionable Insight**
-- Platinum users became the most valuable card due to its average transaction in the last 12 months, but the Gold users became the top valuable churned card. The customer is in the range of 40-49 y.o. became the most active users.
-- The best predictive model is Random Forest with tuned parameters, F1 score of 82%. Through the SHAP method, we can identify the predicted customer at risk and their specific reasons.
-- Review the user's profile to learn more about their preferences and previous service interactions. Accommodate their needs by providing the latest offers and services. Focus retention efforts on profitable risky users before they churn.
+***Conclusion & Actionable Insight***
+- **Platinum** users became the most valuable card due to their average transaction in the last 12 months, but the **Gold users became the top valuable churned card**. The customer is in the range of 40-49 y.o. became the most active users.
+- The best predictive model is **Random Forest with tuned parameters**, F1 score of 82%. Through the SHAP method, we can identify the predicted customer at risk and their specific reasons.
+- **Review the user's profile to learn more about their preferences and previous service interactions. Accommodate their needs by providing the latest offers and services. Focus retention efforts on profitable risky users before they churn.**
 
 ## File Description
 - The dataset .csv, the dataset used in this project, can be downloaded from this repository or the website for the updated data.
-- The code .ipnyb, the notebook (jupyter notebook) contains the end-to-end of this project. *churn_prediction_notebook.ipnyb* as the final project notebook at bootcamp, and *temporary_script.ipnyb* as the updated project notebook.
+- The code .ipnyb, the notebook (jupyter notebook) as a report of this project. *churn_prediction.ipnyb* as the final report, and *temporary_script.ipnyb* as the temporary notebook with modified preprocessing & modeling using pipeline.
 
 ## References:
 - https://www.creditcards.com/glossary/
